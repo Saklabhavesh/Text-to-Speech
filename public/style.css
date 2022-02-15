@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden; 
+}
+
+
+.sound{
+    padding-top: 10px;
+    color: #185ADB;
+}
+
+.sound:hover{
+    color: #FFC947;
+    font-size: xx-large;
+}
+.count{
+    transition: transform 0s;
+}
+.count:hover{
+    transform: scale(1.1); 
+}
